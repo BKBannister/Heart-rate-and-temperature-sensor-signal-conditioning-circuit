@@ -1,1 +1,3 @@
+# Heart rate and temperature sensor signal conditioning circuit
+
 This project aimed to create a health monitoring system with an analog temperature sensor and optical heart rate monitor. The heart rate monitor, using an LED and photo-resistor, detects heartbeats by measuring light changes through a finger. Operational amplifier circuits convert sensor output to heartbeats, processed by a micro-controller for numeric heart rate output to a PC via serial port. Similarly, the temperature sensor’s output is conditioned, digitized, and calibrated by the micro-controller for transmission to the PC. The micro-controller also allows PC-controlled switching of the light source via serial port instructions.
